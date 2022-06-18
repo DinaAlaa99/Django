@@ -8,7 +8,8 @@ urlpatterns = [
     path('edit/<str:todo_name>', todo_edit, name='edit'),
     path('update/<str:todo_name>',todo_update, name='update'),
     path('done/<str:todo_name>', todo_done, name='done'),
-    path('undone/<str:todo_name>', todo_undone, name='undone'),
     path('delete/<str:todo_name>', todo_delete, name='delete'),
+    path('undone/<str:todo_name>', todo_undone, name='undone'),
+
 ]
 
