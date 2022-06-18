@@ -6,7 +6,8 @@ urlpatterns = [
     path('list', directors_list, name='list'),
     path('create', director_create, name='create'),
     path('details/<int:pk>', director_details, name='details'),
-    path('update/<int:pk>',director_update, name='update'),
     path('delete/<int:pk>', director_delete, name='delete'),
+    path('update/<int:pk>',director_update, name='update'),
+    
 ]
 
