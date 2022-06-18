@@ -1,4 +1,4 @@
-# Django - Lab 1
+# Django 
 
 ![screen-gif](./Lab1.gif)
 
